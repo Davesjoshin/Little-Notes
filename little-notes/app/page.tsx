@@ -43,7 +43,7 @@ export default async function HomePage() {
       <div className="mb-6">
         <Link
           href="/new"
-          className="inline-flex rounded-md bg-black px-4 py-2 text-white hover:opacity-90"
+          className="inline-flex rounded-md bg-black px-4 py-2 text-white hover:opacity-90 border-green-500 border-2"
         >
           ➕ New Note
         </Link>
@@ -63,7 +63,7 @@ export default async function HomePage() {
               >
                 <Link
                   href={`/notes/${note.id}`}
-                  className="text-lg font-semibold hover:underline"
+                  className="text-lg font-semibold text-black hover:underline"
                 >
                   {note.title}
                 </Link>

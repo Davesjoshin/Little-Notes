@@ -66,7 +66,7 @@ export default async function NotePage({
         {new Date(note.createdAt).toLocaleString()}
       </div>
 
-      <p className="mt-4 whitespace-pre-wrap text-neutral-800">{note.body}</p>
+      <p className="mt-4 whitespace-pre-wrap text-white text-neutral-800">{note.body}</p>
     </main>
   );
 }
