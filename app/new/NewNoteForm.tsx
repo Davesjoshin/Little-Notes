@@ -1,4 +1,4 @@
-"use client";
+"use client"; // nextjs directive, enables client-side rendering
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -75,7 +75,7 @@ export default function NewNoteForm() {
             <button
                 type="submit"
                 disabled={saving}
-                className="rounded-md bg-black px-4 py-2 text-white hover:opacity-90 disabled:opacity-50"
+                className="rounded-md border border-green-500 bg-black px-4 py-2 text-white hover:opacity-90 disabled:opacity-50"
             >
                 {saving ? "Saving..." : "Save Note"}
             </button>
