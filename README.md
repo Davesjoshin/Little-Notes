@@ -48,3 +48,11 @@ Initialize
 
 Creating tables
 ```npx prisma migrate dev --name init```
+
+## Dev Notes: Postgres
+
+Stop Postgres
+```docker compose down```
+
+Wipe everything
+```docker compose down -v```
